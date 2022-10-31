@@ -6,9 +6,9 @@ import { Sidebar, TopBar } from '../components';
 const DashboardLayout = () => {
     return (
         <div className='app'>
-            <Sidebar></Sidebar>
+            <Sidebar/>
             <main className='content'>
-                <TopBar></TopBar>
+                <TopBar/>
                 <Outlet/>
             </main>
         </div>
